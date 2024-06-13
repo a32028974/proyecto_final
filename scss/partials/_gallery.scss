@@ -1,0 +1,32 @@
+/* Sección de galería */
+.galeria {
+  margin: 2rem 0;
+  text-align: center;
+
+  h2 {
+    font-size: 2em;
+    color: $highlight-color;
+    margin-bottom: 1rem;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .col-4 {
+    margin-bottom: 1rem;
+
+    img {
+      width: 100%;
+      height: auto;
+      @include border-radius(10px);
+      transition: transform 0.3s ease-in-out;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+}

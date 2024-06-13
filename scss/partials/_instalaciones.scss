@@ -1,0 +1,18 @@
+/* Sección de instalaciones */
+.instalaciones {
+  margin: 2rem 0;
+  text-align: center;
+
+  h2 {
+    font-size: 2em;
+    color: $highlight-color;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 1.2em;
+    margin-top: 0.5rem;
+    color: $primary-color;
+    text-align: justify;
+  }
+}

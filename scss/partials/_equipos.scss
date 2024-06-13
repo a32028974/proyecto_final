@@ -1,0 +1,48 @@
+/* Sección de equipos */
+.equipos {
+  margin: 2rem 0;
+  text-align: center;
+
+  h2 {
+    font-size: 2em;
+    color: $highlight-color;
+    margin-bottom: 1rem;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .col-4 {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: calc(25% - 1rem);
+    max-width: 300px; 
+    min-width: 200px; 
+    box-sizing: border-box;
+
+    img {
+      width: 100%;
+      height: 200px; 
+      object-fit: cover; 
+      @include border-radius(10px);
+      transition: transform 0.3s ease-in-out;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+
+    p {
+      font-size: 1.2em;
+      margin-top: 0.5rem;
+      color: $primary-color;
+    }
+  }
+}

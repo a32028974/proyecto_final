@@ -1,0 +1,48 @@
+/* Media queries */
+@media (max-width: 768px) {
+  .producto {
+    width: 45%;
+    margin: 0 auto; 
+  }
+
+  header .navbar-brand img {
+    max-width: 80px;
+  }
+}
+
+@media (max-width: 480px) {
+  .producto {
+    display: flex;
+    width: 100%;
+    margin: 5px 0;
+  }
+
+  header .navbar-brand img {
+    max-width: 60px;
+  }
+
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .navbar-nav .nav-item {
+    margin: 5px 0;
+    width: 100%; 
+  }
+}
+
+/* Media queries para location-playlist */
+@media (max-width: 768px) {
+  .location-playlist {
+    flex-direction: column; 
+    gap: 10px; 
+  }
+}
+
+/* Media queries para la sección de equipos */
+@media (max-width: 768px) {
+  .equipos .col-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,22 @@
+/* Estilo textos y párrafos */
+.texto-principal {
+  color: #ffffff;
+  border: 5px solid whitesmoke;
+  @include border-radius(3px);
+  background-color: $primary-color;
+  margin: 8dvh 0 0 2dvh;
+  padding: 20px;
+  max-width: 100%; 
+  overflow-x: hidden;
+}
+
+.parrafos p {
+  display: block;
+  font-family: oswald;
+  font-size: xx-large;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  color: $primary-color;
+  max-width: 100%;
+  overflow-x: hidden; 
+}

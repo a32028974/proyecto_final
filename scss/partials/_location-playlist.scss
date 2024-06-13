@@ -1,0 +1,33 @@
+/* Estilo datos maps y playlist */
+.location-playlist {
+  @include flex-center;
+  gap: 20px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 100%; 
+  border: 1px solid #ccc;
+  @include border-radius(10px);
+  background-color: #e0e0e0c4;
+  overflow-x: hidden; 
+
+  .maps, .playlist {
+    @include flex-column;
+    align-items: center;
+    padding: 10px;
+    @include border-radius(10px);
+    background-color: #e9ecef;
+    flex: 1;
+    max-width: 100%; 
+    box-sizing: border-box; 
+
+    h2 {
+      margin-top: 0;
+    }
+
+    img {
+      width: 100px;
+      max-width: 100%; 
+    }
+  }
+}
+

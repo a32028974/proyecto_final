@@ -1,0 +1,27 @@
+/* Estilo navbar */
+.optica-bg {
+  background: $navbar-background;
+}
+
+.navbar-brand {
+  background-color: rgba(245, 245, 245, 0.979);
+  width: auto;
+  height: auto;
+  @include border-radius(10px);
+  margin-left: 15px;
+}
+
+.nav-item {
+  text-decoration: none;
+  margin-inline: 10px;
+  background-color: #f9fbff;
+  color: #9bb2ec;
+  @include border-radius(5px);
+}
+
+.nav-item a:hover {
+  color: #fff;
+  background-color: $primary-color;
+  @include border-radius(5px);
+  transform: scale(1.5);
+}

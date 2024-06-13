@@ -1,0 +1,23 @@
+/* Sección de imágenes del índice */
+.container-img_index {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+
+  .img-uno, .img-dos, .img-tres {
+    width: 30%;
+    @include border-radius(10px);
+
+    img {
+      width: 100%;
+      height: auto;
+      @include border-radius(10px);
+      transition: transform 0.3s ease-in-out;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+}
